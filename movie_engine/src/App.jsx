@@ -6,16 +6,17 @@ function App() {
   return (
     <>
     <h1>This is the webpage</h1>
-    <Text/>
+    <Text disp="this is first line"/>
+    <Text disp="this is second line"/>
     </>
   )
 }
 
 
-function Text(){
+function Text({disp}){
   return(
     <>
-    <h3>this is the dummy component</h3>
+    <h3>{disp}</h3>
     </>
 
   )
