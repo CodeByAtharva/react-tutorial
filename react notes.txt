@@ -18,7 +18,9 @@ programmatically component is a JS function that will return an html
 
 package.json is a configuration file
 
-public is a static assests
+public is a static assestss
+
+index.css is a global css file
 
 
 
