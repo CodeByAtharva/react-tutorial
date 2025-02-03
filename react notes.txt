@@ -22,7 +22,10 @@ public is a static assestss
 
 index.css is a global css file
 
+jsx expression must have one parent element
 
+use curly braces to add the int props to an component
+ <Product name="Iphone 16" price={80000}></Product>
 
 
 
