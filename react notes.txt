@@ -1,0 +1,8 @@
+vite is a build tool  - hleps to create a projecy - helps to deploy an project bundle your project
+
+
+an isolated piece of UI that can independently be handled using react
+
+and component can be use multiple times
+component is a single piece of UI
+
