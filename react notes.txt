@@ -16,4 +16,8 @@ our job is to create a component and put it in the App component
 
 programmatically component is a JS function that will return an html
 
+package.json is a configuration file
+
+
+
 
