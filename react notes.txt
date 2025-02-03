@@ -1,8 +1,19 @@
-vite is a build tool  - hleps to create a projecy - helps to deploy an project bundle your project
+🔖Day 1:
+Vite is a build tool  - that helps to create a project - helps to deploy an project bundle your project
 
 
 an isolated piece of UI that can independently be handled using react
 
-and component can be use multiple times
+and component can be used multiple times
 component is a single piece of UI
+
+when you create a react project there will be one file present whose name is "index.html",
+and this is the only file load inside the browser, then you get a default component whose name is the "App" component
+
+and "App" This will be loaded in the index.html
+
+our job is to create a component and put it in the App component
+
+programmatically component is a JS function that will return an html
+
 
