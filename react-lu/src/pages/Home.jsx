@@ -1,16 +1,20 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Home = () => {
 
+  let [name,setName]=useState("Atharva")
+
   function printSomething(){
-    alert("Button is clicked")
+    setName( prompt("Button is clicked"))
+   
   }
 
 
-  
+
   return (
     <>
-    <h1 className='Home'>Home</h1>
+    <h1 className='Home'>{name}</h1>
 
     <button onClick={printSomething}>Click me</button>
     </>
