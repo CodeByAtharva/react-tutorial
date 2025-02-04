@@ -83,6 +83,14 @@ write the printSomething function outside the return and while calling don't use
 📍State: (is a react feature)
 data of component - when state data changes component refreshes itself
 
+let [name,setName]=useState("Atharva")
+
+this is asynchronous task
+
 a variable cannot be called as a state in the react (react doesn't consider this)
+
+when the state of an particular component changes only that component get's re-rendered
+
+📍special function- Hooks: use to attach the feature of the react
 
 
