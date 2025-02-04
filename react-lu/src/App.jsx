@@ -1,8 +1,8 @@
 import './App.css'
-import Product from './Product'
-import Home from './Home'
+import Product from './pages/Product'
+import Home from './pages/Home'
 
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { BrowserRouter,Routes,Route,Link } from 'react-router-dom'
 
 function App() {
   
@@ -13,6 +13,9 @@ function App() {
       <h1>This is main page</h1>
 
       <BrowserRouter>
+
+      <Link to="/home"></Link>
+      <Link to="/product"></Link>
           
           <Routes>
 
