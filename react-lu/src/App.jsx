@@ -14,8 +14,8 @@ function App() {
 
       <BrowserRouter>
 
-      <Link to="/home"></Link>
-      <Link to="/product"></Link>
+      <Link to="/home">Home</Link>
+      <Link to="/product">Product</Link>
           
           <Routes>
 
