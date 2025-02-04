@@ -14,8 +14,13 @@ function App() {
 
       <BrowserRouter>
 
-      <Link to="/home">Home</Link>
-      <Link to="/product">Product</Link>
+      <ul>
+        <li> <Link to="/home">Home</Link></li>
+        <li><Link to="/product">Product</Link></li>
+      </ul>
+
+     
+      
           
           <Routes>
 

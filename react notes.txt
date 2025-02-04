@@ -1,4 +1,12 @@
-🔖Day 1:
+instructor: Sourav Gupta
+
+use: npm run dev 
+to run an react app
+
+use: npm create vite@latest 
+to create an react project
+
+✅Day 1:
 Vite is a build tool  - that helps to create a project - helps to deploy an project bundle your project
 
 
@@ -18,18 +26,63 @@ programmatically component is a JS function that will return an html
 
 package.json is a configuration file
 
-public is a static assestss
+public is a static assests
 
 index.css is a global css file
 
-jsx expression must have one parent element
+JSX expression must have one parent element
 
 use curly braces to add the int props to an component
- <Product name="Iphone 16" price={80000}></Product>
+ <Product name="iPhone 16" price={80000}></Product>
+
+only index.html will be loaded in the browser
+
+✅Day 2:
+we need to decide which component to serve as a page and which is to be compatible as a component
+
+we can apply the css to the parent component and the child component will automatically inhrit the css
+
+📍Routing:
+loading diff comp based on url making it look like pages
+
+we have to use the react-router-dom
+which is not downloaded bydefault
+
+this gives you the Four things:
+import { BrowserRouter,Routes,Route,Linl } from 'react-router-dom'
+
+      <BrowserRouter>
+          
+          <Routes>
+
+            <Route  path='/home' element={<Home/>}></Route>
+            <Route path='/product' element={<Product/>}></Route>
+
+          
+
+          </Routes>
+
+      </BrowserRouter>
 
 
+we have to render the routes like this 
+
+we can use link component inside the BrowserRouter
+
+create an following two folder's to organize the directory structure
 
 
+📍Event handling:
 
+create a function in the component
+
+ <button onClick={printSomething}>Click me</button>
+
+write the printSomething function outside the return and while calling don't use parenthesis(), it will automatically called when the page will be loaded
+
+📍State: (is a react feature)
+data of component - when state data changes component refreshes itself
+
+a variable cannot be called as a state in the react (react doesn't consider this)
 
 
