@@ -19,16 +19,11 @@ function App() {
         <li><Link to="/product">Product</Link></li>
       </ul>
 
-     
-      
-          
+ 
           <Routes>
 
             <Route  path='/home' element={<Home/>}></Route>
             <Route path='/product' element={<Product/>}></Route>
-
-          
-
           </Routes>
 
       </BrowserRouter>
