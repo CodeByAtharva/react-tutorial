@@ -4,15 +4,17 @@ const Profile = () => {
 
     let[state,setState]=useState("loaded");
 
+    let[name,setName]=useState("Atharva")
+    let[city,setCity]=useState("Pune")
+
     useEffect(()=>{
         console.log(state)
         
 
-    })
+    },[name])
 
     function changeData(){
         setState("unloaded")
-
 
     }
 
@@ -20,8 +22,15 @@ const Profile = () => {
   return (
 
     <>
-    <h3>Profile</h3>
-    <button onClick={changeData}>setdata</button>
+    <h6>Profile</h6>
+    <h1>{name}</h1>
+    <h3>{city}</h3>
+
+    <div>
+        <button onClick={()=>{setName("Thor")}}   >change Name</button>
+        <button onClick={()=>{setCity("Asgard")}} >Change City</button>
+    </div>
+
     </>
   )
 }
