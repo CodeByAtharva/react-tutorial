@@ -1,7 +1,7 @@
 import './App.css'
 import Product from './pages/Product'
 import Home from './pages/Home'
-
+import Profile from './pages/Profile'
 import { BrowserRouter,Routes,Route,Link } from 'react-router-dom'
 
 function App() {
@@ -14,9 +14,10 @@ function App() {
 
       <BrowserRouter>
 
-      <ul>
+      <ul className='box'>
         <li> <Link to="/home">Home</Link></li>
         <li><Link to="/product">Product</Link></li>
+        <li><Link to="/profile">profile</Link></li>
       </ul>
 
  
@@ -24,6 +25,7 @@ function App() {
 
             <Route  path='/home' element={<Home/>}></Route>
             <Route path='/product' element={<Product/>}></Route>
+            <Route path='/profile' element={<Profile/>}></Route>
           </Routes>
 
       </BrowserRouter>
