@@ -100,6 +100,11 @@ foreach doesn't return anything
 map function return's an new element
 the map function is just like a foreach loop, but it creates a new array by modifying each element
 
+it's possible to pass an array
+
+
+📍Lifecycle of react component:
+every compo that we create has an lifecycle
 
 
 
