@@ -104,7 +104,7 @@ it's possible to pass an array
 
 
 📍Lifecycle of react component:
-every compo that we create has an lifecycle
+every compo that we create has a lifecycle
 when the compo load in the browser the LC start's
 and as soon as unloaded from the browser the lifecycle end's
 
@@ -118,6 +118,27 @@ lifecycle ends - unmounting of component
 
 
 to use this life cycle we use the special hook in rect known as 🧐"useEffect"
+useeffect is bydefault called when laoded and unloaded from the lifecycle
+
+   useEffect(()=>{
+        console.log(state)
+    })
+
+    useEffect(()=>{
+        console.log(state)
+        
+
+    },[name])
+
+if you pass the variable in dep array useEffect is called for that only variable
 
 
+📍when you want to perform a task when component is destroyed for that
+
+in the very last of useEffct just return an function 
+
+it will be called only for the dependent varialble
+
+
+📍Strictmode it runs the code twice
 

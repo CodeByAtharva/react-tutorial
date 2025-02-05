@@ -11,6 +11,10 @@ const Profile = () => {
         console.log(state)
         
 
+        return(()=>{
+            console.log("destroyed")
+        })
+
     },[name])
 
     function changeData(){
