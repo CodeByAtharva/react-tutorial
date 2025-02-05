@@ -105,10 +105,19 @@ it's possible to pass an array
 
 📍Lifecycle of react component:
 every compo that we create has an lifecycle
+when the compo load in the browser the LC start's
+and as soon as unloaded from the browser the lifecycle end's
+
+sometimes you want to perform the task based ontt he component lifecycle
+e.g. when this component get's loaded i want to perfomr some task\
 
 
+lifecycle starts: mounting of component
+component rerender's/refreshes
+lifecycle ends - unmounting of component
 
 
+to use this life cycle we use the special hook in rect known as 🧐"useEffect"
 
 
 
