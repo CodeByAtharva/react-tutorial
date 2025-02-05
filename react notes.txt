@@ -94,3 +94,16 @@ when the state of an particular component changes only that component get's re-r
 📍special function- Hooks: use to attach the feature of the react
 
 
+✅Day 3 (List, forms and lifecycle methods):
+📍map:
+foreach doesn't return anything
+map function return's an new element
+the map function is just like a foreach loop, but it creates a new array by modifying each element
+
+
+
+
+
+
+
+
